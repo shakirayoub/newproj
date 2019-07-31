@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator</title>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+
+<div>
+	
+    <form name="calculator">
+
+    	<input type="text" name="scn" ><br>
+    	<input type="button" name="btnoff" value="OFF" onclick="clr()"/>
+    	
+ <input type="button" name="btnc" value="C" onclick="clr()"/>
+<input type="button" name="backspc" value="del" onclick="del()"/>
+<input type="button" name="btnmod" value="%" onclick="display('%')"/><br>
+<input type="button" name="btn7" value="7" onclick="display('7')"/>
+<input type="button" name="btn8" value="8" onclick="display(btn8.value)"/>
+<input type="button" name="btn9" value="9" onclick="display(btn9.value)"/>
+<input type="button" name="btndiv" value="/" onclick="display(btndiv.value)"/><br>
+<input type="button" name="btn4" value="4" onclick="display(btn4.value)"/>
+<input type="button" name="btn5" value="5" onclick="display(btn5.value)"/>
+<input type="button" name="btn6" value="6" onclick="display(btn6.value)"/>
+<input type="button" name="btnmul" value="*" onclick="display(btnmul.value)"/><br>
+<input type="button" name="btn1" value="1" onclick="display(btn1.value)"/>
+<input type="button" name="btn2" value="2" onclick="display(btn2.value)"/>
+<input type="button" name="btn3" value="3" onclick="display(btn3.value)"/>
+<input type="button" name="btnsub" value="-" onclick="display(btnsub.value)"/><br>
+<input type="button" name="btnpt" value="." onclick="display(btnpt.value)"/>
+<input type="button" name="btn0" value="0" onclick="display(btn0.value)"/>
+<input type="button" name="btneql" value="=" onclick="calculator.scn.value = sol(calculator.scn.value)"/>
+<input type="button" name="btnadd" value="+" onclick="display(btnadd.value)"/>
+
+
+
+
+    </form>
+
+
+       
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
